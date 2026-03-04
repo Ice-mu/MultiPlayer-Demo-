@@ -3,12 +3,6 @@
   
 该项目旨在学习对UE5 GamePlay框架的理解，包括游戏模式（GameMode）、游戏状态（GameState）、玩家状态（PlayerState）、玩家控制器（PlayerController）、角色（PlayerCharacter）、网络复制（Replication）、UI（UMG）等。
 
-<div style="display: flex; justify-content: center;">
-  <video controls width="600">
-   <source src="https://raw.githubusercontent.com/Ice-mu/MultiPlayer-Demo-/raw/main/images/Video.mp4" type="video/mp4">
-  </video>
-</div>
-
 <video controls width="400">
   <source src="https://github.com/Ice-mu/MultiPlayer-Demo-/raw/main/images/Video.mp4" type="video/mp4">
 </video>
