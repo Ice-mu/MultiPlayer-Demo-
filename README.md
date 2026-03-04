@@ -5,9 +5,10 @@
 
 <div style="display: flex; justify-content: center;">
   <video controls width="600">
-   <source src="https://github.com/Ice-mu/MultiPlayer-Demo-/raw/main/images/Video.mp4" type="video/mp4">
+   <source src="https://raw.githubusercontent.com/Ice-mu/MultiPlayer-Demo-/main/images/Video.mp4" type="video/mp4">
   </video>
 </div>
+  
 
 # 整体架构
 PickupsGameMode：从GameState读游戏状态，控制游戏规则，比赛的生命周期。  
