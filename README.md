@@ -5,7 +5,7 @@
 
 <div style="display: flex; justify-content: center;">
   <video controls width="600">
-    <source src="./images/Video.mp4" type="video/mp4">
+   <source src="https://github.com/Ice-mu/MultiPlayer-Demo-/raw/main/images/Video.mp4" type="video/mp4">
   </video>
 </div>
 
