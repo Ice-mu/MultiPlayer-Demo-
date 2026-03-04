@@ -3,9 +3,7 @@
   
 该项目旨在学习对UE5 GamePlay框架的理解，包括游戏模式（GameMode）、游戏状态（GameState）、玩家状态（PlayerState）、玩家控制器（PlayerController）、角色（PlayerCharacter）、网络复制（Replication）、UI（UMG）等。
 
-<video controls width="400">
-  <source src="https://github.com/Ice-mu/MultiPlayer-Demo-/raw/main/images/Video.mp4" type="video/mp4">
-</video>
+![游戏流程](./images/演示视频.gif)
 
 # 整体架构
 PickupsGameMode：从GameState读游戏状态，控制游戏规则，比赛的生命周期。  
@@ -237,6 +235,7 @@ TArray<APlayerState*> APickupsGameState::GetPlayerStatesOrderedByScore() const
 | --- | --- | --- |
 | ScoreboardMenuClass | TSubclassOf<UUserWidget> |指定动态创建计分板UI对应的蓝图类，需要在蓝图子类中赋值自己的UI控件蓝图|
 |ScoreboardMenu| UUserWidget* |存储计分板UI实例|
+
 **核心成员函数：**  
 重写 UE原生BeginPlay函数
 ```
